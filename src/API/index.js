@@ -1,5 +1,4 @@
-export const CLIENT_ID = 'API KEY GOES HERE!'
-
+import {CLIENT_ID} from './clientId'
 
 const loadImages = (searchTerm, orientation, featured) => {
   return fetch(`https://api.unsplash.com/photos/random?&count=30&client_id=${CLIENT_ID}${searchTerm && `&query=${searchTerm}`}${orientation && `&orientation=${orientation}`}${featured ? `&featured=${true}` : ''}`)
