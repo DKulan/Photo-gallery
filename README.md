@@ -6,7 +6,7 @@ The photo gallery fetches images from the Unsplash API based on users requiremen
 
 ### How to run the application
 
-**IMPORTANT**: Please open the API/index.js file and input your access key into the 'CLIENT_ID' field!
+**IMPORTANT**: Please open the API/clientId.js file and input your access key into the 'CLIENT_ID' field!
 
 1. `cd ` into the project root directory.
 2. Run `yarn install` or `npm install` to install local dependencies.
