@@ -10,7 +10,6 @@ const Image = ({image}) => {
             <img src={image.urls.thumb} alt='thumbnail'/>
           </a>
           <figcaption
-            className='has-text-primary'
             style={{textOverflow: 'ellipsis', whiteSpace: 'nowrap', overflow: 'hidden'}}
           >{!image.description ? image.alt_description : image.description}
             <p><strong>Photo by:</strong> {image.user.first_name} {image.user.last_name}</p>
